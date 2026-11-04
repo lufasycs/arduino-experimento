@@ -14,7 +14,6 @@ bool sonidoMedido = false;
 void setup() {  
   pinMode(pinLED, OUTPUT);       // El LED es una salida
   pinMode(pinDigital, INPUT);    // El pin digital del sensor es entrada
-  // Los pines analógicos (como A0) NO necesitan pinMode, se configuran solos
   
   Serial.begin(9600);            // Inicializar el graficador/monitor serie
 }
@@ -48,7 +47,7 @@ void medirSonido() {
 
    digitalVal = digitalRead(pinDigital);
 
-  if (digitalVal == HIGH) {      // Cambié "pinMicrophone" por "digitalVal" que tiene la lectura real
+  if (digitalVal == HIGH) {      
     digitalWrite(pinLED, HIGH);
   } else {
     digitalWrite(pinLED, LOW);
