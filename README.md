@@ -14,16 +14,15 @@ El sensor KY-037 se conecta al Arduino de la siguiente manera:
 * **VCC** ➡️ 3.3V
 * **GND** ➡️ GND
 * **AO** ➡️ Pin A0
-* **DO** ➡️ Pin 13
+* **DO** ➡️ Pin 7
 
-*(Inserta aquí una foto de tu circuito o diagrama)*
-![Diagrama del circuito](hardware/circuito.png)
+![Diagrama del circuito] <img width="1844" height="1214" alt="circuit_image" src="https://github.com/user-attachments/assets/b7b76d12-d1e1-4c46-ac25-1477700f61c7" />
 
 ##  Resultados
-Los datos obtenidos a través del monitor serie se exportaron a la carpeta `/data`. A continuación se muestra la gráfica de la relación presión/temperatura:
+Los datos obtenidos a través del monitor serie se exportaron a la carpeta `/datos`.
 
 *(Inserta aquí un gráfico generado con tus datos)*
 ![Gráfico de Resultados](data/grafico_resultados.png)
 
 ##  Comunidad y Discusiones
-Si quieres replicar este experimento, tienes dudas con las calibraciones del sensor o quieres sugerir mejoras en el código, ¡abre un hilo en la pestaña de **Discussions** de este repositorio!
+Estoy empezando a publicar mis experimentos en Github así que si quieres replicar este experimento, tienes dudas con las calibraciones del sensor o quieres sugerir mejoras en el código, siéntete libre de abrir un hilo en la pestaña de **Discussions** de este repositorio ^_^
