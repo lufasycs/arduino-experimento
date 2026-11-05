@@ -13,8 +13,8 @@ Mi hipótesis es que el tiempo de reaccion del sensor varía de forma directamen
 El sensor KY-037 se conecta al Arduino de la siguiente manera:
 * **VCC** ➡️ 3.3V
 * **GND** ➡️ GND
-* **SCL** ➡️ Pin A5
-* **SDA** ➡️ Pin A4
+* **AO** ➡️ Pin A0
+* **DO** ➡️ Pin 13
 
 *(Inserta aquí una foto de tu circuito o diagrama)*
 ![Diagrama del circuito](hardware/circuito.png)
