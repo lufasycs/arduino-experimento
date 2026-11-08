@@ -1,0 +1,35 @@
+--- INICIANDO SERIE DE EXPERIMENTOS ---
+Intensidad_Configurada_Hz: 250
+Prueba,Tiempo_Respuesta_us,Intensidad_Analogica_AO
+1,20,507
+2,24,508
+3,24,512
+4,20,507
+5,28,512
+--- EXPERIMENTO FINALIZADO ---
+Puedes cambiar el valor de 'intensidadSonido' en el código para otra tanda de datos.
+
+--- INICIANDO SERIE DE EXPERIMENTOS ---
+Intensidad_Configurada_Hz: 4000
+Prueba,Tiempo_Respuesta_us,Intensidad_Analogica_AO
+1,20,512
+2,20,514
+3,28,513
+4,24,514
+5,24,512
+--- EXPERIMENTO FINALIZADO ---
+Puedes cambiar el valor de 'intensidadSonido' en el código para otra tanda de datos.
+
+Intensidad_Configurada_Hz: 10000
+Prueba,Tiempo_Respuesta_us,Intensidad_Analogica_AO
+1,28,512
+2,28,512
+3,24,507
+4,24,513
+5,24,512
+--- EXPERIMENTO FINALIZADO ---
+Puedes cambiar el valor de 'intensidadSonido' en el código para otra tanda de datos.
+
+
+
+
