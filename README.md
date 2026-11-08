@@ -7,22 +7,36 @@ Mi hipótesis es que el tiempo de reaccion del sensor varía de forma directamen
 ##  Hardware Utilizado
 * Arduino Uno R3
 * Módulo sensor de sonido KY-037
+* Buzzer pasivo
+* Protoboard
 * Cables de conexión
 
 ##  Circuito y Conexiones
 El sensor KY-037 se conecta al Arduino de la siguiente manera:
-* **VCC** ➡️ 3.3V
+* **VCC** ➡️ 5V
 * **GND** ➡️ GND
 * **AO** ➡️ Pin A0
 * **DO** ➡️ Pin 7
 
-![Diagrama del circuito] <img width="1844" height="1214" alt="circuit_image" src="https://github.com/user-attachments/assets/b7b76d12-d1e1-4c46-ac25-1477700f61c7" />
+El buzzer se conecta al Arduino de la siguiente manera:
+* **VCC** ➡️ Pin 8
+* **GND** ➡️ GND
+
+![Diagrama del circuito] 
+https://app.cirkitdesigner.com/project/06578eb7-8a59-4de0-b4fc-82426a1eaa82
 
 ##  Resultados
-Los datos obtenidos a través del monitor serie se exportaron a la carpeta `/datos`.
+Los datos obtenidos a través del monitor serie se exportaron a la carpeta `/data.csv`.
 
-*(Inserta aquí un gráfico generado con tus datos)*
-![Gráfico de Resultados](data/grafico_resultados.png)
+![Gráfico de Resultados]
+
+## Conclusiones
+* **Comportamiento del tiempo:** Al comparar las frecuencias de 250 Hz, con 4000 Hz y por último 10000 Hz, el sensor reaccionó perfectamente con un tiempo de reacción entre 20 y 28 microsegundos, solo interfiriendo el tiempo que demora el Arduino al leer la función digitalRead().
+
+* **Comportamiento del sensor analogico:** Las lecturas analogicas se mantuvieron alrededor de 512 debido a que el voltaje de la salida analógica oscila de forma de onda senoidal exactamente 4,000 veces por segundo alrededor de su voltaje de referencia (que suele ser la mitad del voltaje de alimentación, aprox. 2.5V si lo alimentas con 5V).
+
+* **Evaluación de la hipótesis:** Mi teoría inicial era que la intensidad cambiaría el tiempo, pero los datos demuestran que el tiempo de reacción es independiente a la frecuencia del sonido.
+
 
 ##  Comunidad y Discusiones
 Estoy empezando a publicar mis experimentos en Github así que si quieres replicar este experimento, tienes dudas con las calibraciones del sensor o quieres sugerir mejoras en el código, siéntete libre de abrir un hilo en la pestaña de **Discussions** de este repositorio ^_^
