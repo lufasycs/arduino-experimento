@@ -6,7 +6,7 @@ const int pinBuzzer = 8;        // Buzzer pasivo conectado al pin 8
 int numeroPrueba= 1;
 int analogVal;
 const int totalPruebas = 5;
-const int intensidadSonido = 10000; //Aqui puedes cambiar los Hz
+const int intensidadSonido = 10000; //Aqui puedes cambiar la frecuencia del sonido (Hz)
 // Suave: 250; Medio: 4000; Alto: 10000
 
 unsigned long TiempoInicio = 0;
