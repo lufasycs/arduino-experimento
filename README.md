@@ -22,13 +22,11 @@ El buzzer se conecta al Arduino de la siguiente manera:
 * **VCC** ➡️ Pin 8
 * **GND** ➡️ GND
 
-![Diagrama del circuito] 
+* Diagrama del circuito:
 https://app.cirkitdesigner.com/project/06578eb7-8a59-4de0-b4fc-82426a1eaa82
 
 ##  Resultados
 Los datos obtenidos a través del monitor serie se exportaron a la carpeta `/data.csv`.
-
-![Gráfico de Resultados]
 
 ## Conclusiones
 * **Comportamiento del tiempo:** Al comparar las frecuencias de 250 Hz, con 4000 Hz y por último 10000 Hz, el sensor reaccionó perfectamente con un tiempo de reacción entre 20 y 28 microsegundos, solo interfiriendo el tiempo que demora el Arduino al leer la función digitalRead().
