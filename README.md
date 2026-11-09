@@ -13,14 +13,14 @@ Mi hipótesis es que el tiempo de reaccion del sensor varía de forma directamen
 
 ##  Circuito y Conexiones
 El sensor KY-037 se conecta al Arduino de la siguiente manera:
-* **VCC** ➡️ 5V
-* **GND** ➡️ GND
-* **AO** ➡️ Pin A0
-* **DO** ➡️ Pin 7
+* **VCC** → 5V
+* **GND** → GND
+* **AO** → Pin A0
+* **DO** → Pin 7
 
 El buzzer se conecta al Arduino de la siguiente manera:
-* **VCC** ➡️ Pin 8
-* **GND** ➡️ GND
+* **VCC** → Pin 8
+* **GND** → GND
 
 * Diagrama del circuito:
 https://app.cirkitdesigner.com/project/06578eb7-8a59-4de0-b4fc-82426a1eaa82
