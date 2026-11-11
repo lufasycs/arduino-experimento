@@ -21,7 +21,6 @@ void setup() {
   Serial.begin(9600);            
   
   Serial.println("--- INICIANDO SERIE DE EXPERIMENTOS ---");
-  // Esta línea le permite a programas como Excel o Python graficar rangos automáticamente
   Serial.print("Intensidad_Configurada_Hz: ");
   Serial.println(intensidadSonido);
   Serial.println("Prueba,Tiempo_Respuesta_us,Intensidad_Analogica_AO");
