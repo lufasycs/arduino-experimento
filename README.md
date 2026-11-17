@@ -23,7 +23,7 @@ El buzzer se conecta al Arduino de la siguiente manera:
 * **GND** → GND
 
 * Diagrama del circuito:
-https://app.cirkitdesigner.com/project/06578eb7-8a59-4de0-b4fc-82426a1eaa82
+<img width="1000" height="752" alt="fe380e8d-f4a0-4fca-8c57-3f7959bca184" src="https://github.com/user-attachments/assets/efaf48b2-52ec-4840-80e1-0688bce653b6" />
 
 ##  Resultados
 Los datos obtenidos a través del monitor serie se exportaron a la carpeta `/tabla.csv` y `/data_serial_monitor.txt/`.
